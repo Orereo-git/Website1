@@ -1,0 +1,51 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.test_con {
+    padding: 15px;
+    border-style: solid;
+    border-color: wheat;
+}
+
+@keyframes color_change {
+    33% {color: beige;}
+    66% {color: #FF3131;}
+    100% {color: beige;}
+}
+
+@keyframes color_change_2 {
+    33% {color: beige;}
+    66% {color: #1F51FF;}
+    100% {color: beige;}
+}
+
+.testing {
+    color: beige;
+    animation-name: color_change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.testing:hover{
+    animation-name:color_change_2 ;
+    color:beige;
+    cursor: pointer;
+    transform: scale(1.2);
+    animation-duration: 4s;
+}
+
+.test_con:hover {
+    border-color: rgba(0, 0, 0, 0);
+}
