@@ -42,10 +42,9 @@
     animation-name:color_change_2 ;
     color:beige;
     cursor: pointer;
-    transform: scale(1.2);
     animation-duration: 4s;
 }
 
 .test_con:hover {
-    border-color: rgba(0, 0, 0, 0);
+    transform: scale(1.2);
 }
